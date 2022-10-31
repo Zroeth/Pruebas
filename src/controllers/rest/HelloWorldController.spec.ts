@@ -6,6 +6,7 @@ const sum = require('./HelloWorldController');
 
 describe("HelloWorldController", () => {
   beforeEach(PlatformTest.create);
+  
   afterEach(PlatformTest.reset);
 
   it("should do something", () => {
