@@ -26,13 +26,32 @@ export class HelloWorldController {
     }
   }
 
-  aFunction() {
-    return "hello";
-  }
+  aFunction(a:string) {
+    if(a!=""){
+      return "Hello "+a;
+    }
+    else
+    {
+      return "Hello"
+    }
+
+    }
 
   _sumarDosNumeros(a: number, b: number){
     return a + b;
   }
+  _division(a: number, b: number){
+    return a / b;
+  }
+
+  LaPizzaLlevaPiña()
+  {
+ return true
+  }
+
+
+
+
 }
 
 
